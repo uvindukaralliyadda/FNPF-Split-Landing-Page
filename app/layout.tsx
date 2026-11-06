@@ -9,9 +9,9 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
-const title = "Fiji National Provident Fund | New & Existing Members";
+const title = "FNPF | Fiji National Provident Fund Member Services";
 const description =
-  "New to FNPF or already a member? Choose your path to registration guides, benefits, withdrawals, statements and myFNPF services.";
+  "Access FNPF member services, registration guidance, contribution information, withdrawals, statements and myFNPF support for new and existing members.";
 
 export const metadata: Metadata = {
   title,
