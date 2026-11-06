@@ -45,13 +45,12 @@ a{color:inherit;text-decoration:none}
   content:"";position:absolute;inset:0;z-index:-1;
   transition:opacity .7s;
 }
-.side.new{background:var(--primary)}
-.side.existing{background:var(--secondary)}
+.side.new,.side.existing{background:#172a45}
 .side.new::after{
-  background:radial-gradient(ellipse at center, rgba(120,18,34,.82) 0%, rgba(193,39,61,.62) 60%, rgba(193,39,61,.45) 100%);
+  background:linear-gradient(90deg,rgba(89,31,49,.78) 0%,rgba(54,39,57,.7) 100%);
 }
 .side.existing::after{
-  background:radial-gradient(ellipse at center, rgba(13,26,46,.85) 0%, rgba(23,42,69,.66) 60%, rgba(23,42,69,.5) 100%);
+  background:linear-gradient(90deg,rgba(54,39,57,.7) 0%,rgba(20,40,64,.78) 100%);
 }
 
 @media (hover:hover) and (min-width:900px){
@@ -90,8 +89,7 @@ h2{
   border-radius:4px;
   transition:gap .3s, background .3s;
 }
-.side.new .enter{color:var(--primary)}
-.side.existing .enter{color:var(--secondary)}
+.side.new .enter,.side.existing .enter{color:var(--secondary)}
 .side:hover .enter{gap:20px;background:#fff}
 .enter span{font-size:18px;line-height:1}
 
